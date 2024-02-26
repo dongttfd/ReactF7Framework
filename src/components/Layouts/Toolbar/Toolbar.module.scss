@@ -1,0 +1,8 @@
+.toolbar {
+  position: fixed;
+  &.toolbar-with-scrollbar {
+    :global(.toolbar-inner) {
+      padding-right: calc(var(--f7-toolbar-inner-padding-right) + var(--f7-safe-area-right) + var(--scrollbar-size));
+    }
+  }
+}
